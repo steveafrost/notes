@@ -1,4 +1,4 @@
-![Notes](https://cl.ly/e33bcd99ec0b/README-photo.jpg)
+![Notes](https://cl.ly/f1887bff2953/README-photo.jpg)
 
 A repository to store development notes. Running list:
 
