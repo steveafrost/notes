@@ -34,3 +34,29 @@ What kinds of testing can we do?
 -   Internationalization
 -   Accessibility
 -   LOTS
+
+Example of what an assertion looks like
+
+```javascript
+function expect(actual) {
+    return {
+        toBe(expected) {
+            if (result !== expected) {
+                throw new Error(`${result} is not equal to ${expected}`);
+            }
+        },
+    };
+}
+```
+
+Testing frameworks can help improve our error messaging, allow us to see exactly where something failed, and provide encapsulation.
+
+Example of a test format
+
+```javascript
+test(title, () => {
+    // arrange
+    // act
+    // asset
+});
+```
